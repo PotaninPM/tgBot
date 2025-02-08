@@ -21,11 +21,11 @@ messages  = [
 def update(messages, role, content):
     messages.append({"role": role, "content": content})
     return messages
-PAYMENTS_TOKEN = "1744374395:TEST:46a69684b6ea9ed7d292"
+PAYMENTS_TOKEN = "key"
 #API ключ OpenAI
-openai.api_key = 'sk-zp6ZXTtkMfonhIP1'
+openai.api_key = 'key'
 # Токен телеграмм бота от BotFather
-bot = Bot(token='6262271892:AAHbrysP')
+bot = Bot(token='key')
 
 dp = Dispatcher(bot)
 #база даннх Sqlite
